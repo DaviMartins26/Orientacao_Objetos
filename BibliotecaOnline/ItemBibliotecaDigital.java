@@ -4,7 +4,7 @@ public abstract class ItemBibliotecaDigital {
     protected String assunto;
     protected float tamanhaGb;
 
-    public ItemBibliotecaDigital(String titulo,String autor,String assunto,float tamanhaGb){
+    public ItemBibliotecaDigital(String titulo, String autor, String assunto, float tamanhaGb) {
         this.titulo = titulo;
         this.autor = autor;
         this.assunto = assunto;

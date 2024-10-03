@@ -9,7 +9,7 @@ public class VideoDigital extends ItemBibliotecaDigital implements Visualizavel,
     @Override
     public void visualizar() {
         float tempV = 0f;
-        for (; tempV <= tempo; tempV += 0.5f) {  // pq precisa daquele ; ?
+        for (; tempV <= tempo; tempV += 2.7f) {  // pq precisa daquele ; ?
             System.out.println("Minutos assistido: " + tempV);
         }
         System.out.println("Video "+titulo+" Finalizado");
@@ -19,7 +19,7 @@ public class VideoDigital extends ItemBibliotecaDigital implements Visualizavel,
     public void baixar() {
         System.out.println("Inicando download...");
         float totalBaixada = 0f;
-        for (; totalBaixada <= tamanhaGb; totalBaixada += 0.3f) {  // pq precisa daquele ; ?
+        for (; totalBaixada <= tamanhaGb; totalBaixada += 1.5f) {  // pq precisa daquele ; ?
             System.out.println("Baixando total de: " + totalBaixada+"de "+ tamanhaGb);
         }
         System.out.println("Video "+titulo+" Baixado com Sucesso");

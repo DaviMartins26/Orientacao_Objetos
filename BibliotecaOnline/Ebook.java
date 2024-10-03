@@ -11,7 +11,7 @@ public class Ebook extends ItemBibliotecaDigital implements Baixavel{
     public void baixar() {
         System.out.println("Inicando download...");
         float totalBaixada = 0f;
-        for (; totalBaixada <= tamanhaGb; totalBaixada += 0.3f) {  // pq precisa daquele ; ?
+        for (; totalBaixada <= tamanhaGb; totalBaixada += 1.2f) {  // pq precisa daquele ; ?
             System.out.println("Baixando total de: " + totalBaixada+"de "+ tamanhaGb);
         }
         System.out.println("Ebook "+titulo+" Baixado com Sucesso");
